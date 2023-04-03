@@ -74,12 +74,12 @@ function generateMarkdown(data) {
   ## License 
   This project is licensed under the ${data.license} license.
   ## Contributing
-  ${data.contribution}
+  ${data.contributions}
   ## Tests
   To run tests, run the following command:
   ${data.tests}
   ## Questions
-  If you have any questions about this repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://www.github.com/${data.username}).
+  If you have any questions about this repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.github}](https://www.github.com/${data.github}).
 `;
 }
 module.exports = generateMarkdown;
